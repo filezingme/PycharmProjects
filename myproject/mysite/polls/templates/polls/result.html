@@ -7,6 +7,6 @@
         {% for item in q.choice_set.all %}
             <p>{{item.choice_text}} : {{item.vote}}</p>
         {% endfor %}
-        <a href="{% url 'list' %}">Viet tiep</a>
+        <a href="{% url 'polls:list' %}">Viet tiep</a>
     {% endif %}
 {% endblock %}

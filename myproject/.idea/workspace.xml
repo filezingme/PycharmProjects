@@ -1,7 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e976bec0-f6c8-417d-9bc4-bf1199f53e7c" name="Default Changelist" comment="" />
+    <list default="true" id="e976bec0-f6c8-417d-9bc4-bf1199f53e7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/mysite/news/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/templates/news/add_news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/polls/static/polls/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/detail_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/detail_question.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/question_list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/result.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,15 +38,29 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ZjtDEu32ZvzwbTGjfKvqxD6xhx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/news" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop88_LTV\PycharmProjects\myproject\mysite\news" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -38,11 +75,34 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1585504080644">
+    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2" timestamp="1585507617197">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585504080644" />
+    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585507617197" />
+    <state x="428" y="121" key="FileChooserDialogImpl" timestamp="1585505866497">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="428" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585505866497" />
+    <state x="151" y="0" key="SettingsEditor" timestamp="1585505889994">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="151" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585505889994" />
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1585506073164">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585506073164" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1585507403968">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585507403968" />
+    <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585506142132">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585506142132" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585366570278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

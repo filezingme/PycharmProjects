@@ -27,6 +27,6 @@ def vote(request, question_id):
         c = q.choice_set.get(pk=data)
         c.vote = c.vote + 1
         c.save()
+        return render(request, "polls/result.html", {"q": q})
     except:
-        HttpResponse("loi khong co choice")
-    return render(request, "polls/result.html", {"q": q})
+        return HttpResponse("loi khong co choice")
