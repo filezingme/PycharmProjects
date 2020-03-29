@@ -1,0 +1,14 @@
+{% extends 'polls/base.html' %}
+
+{% block content %}
+hello <b>{{name}}</b>
+<br><br>
+Tai san cua ban hien co la:
+{% if taisan %}
+    <ul>
+        {% for item in taisan %}
+        <li>{{ item }}</li>
+        {% endfor %}
+    </ul>
+{% endif %}
+{% endblock %}

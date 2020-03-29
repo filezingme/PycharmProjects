@@ -1,0 +1,11 @@
+{% extends 'polls/base.html' %}
+
+{% block content %}
+{% if dsquest %}
+    {% for item in dsquest %}
+        <a href="{% url 'detail' item.id %}"><p>{{ item.question_text }} - {{ item.id }}</p></a>
+    {% endfor %}
+{% else %}
+    khong co du lieu
+{% endif %}
+{% endblock %}
