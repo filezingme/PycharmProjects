@@ -59,7 +59,7 @@ ROOT_URLCONF = 'mysite.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -110,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 #3. giai phap la xoa cai file db.sqlite3 va run lai 2 dong lenh 1 & 2 o tren
 #4. python manage.py createsuperuser
 #ref: https://www.youtube.com/watch?v=tNonsihMEiU&list=PLZEIt444jqpB1j3RD4BrYm9JmNVYuzVNm&index=24, phut thu 8:06
-AUTH_USER_MODEL = 'login.MyUser'
+#AUTH_USER_MODEL = 'login.MyUser'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
@@ -130,3 +130,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "static")
+]
+
+#STATIC_ROOT = 'static'
