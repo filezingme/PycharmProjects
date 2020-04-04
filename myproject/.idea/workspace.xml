@@ -2,27 +2,50 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e976bec0-f6c8-417d-9bc4-bf1199f53e7c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mysite/news/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/news/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/news/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/news/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/news/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/news/templates/news/add_news.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/news/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/news/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/news/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mysite/polls/static/polls/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/_bk/db (2).sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/_bk/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/migrations/0002_myuser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/templates/login/add_post.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/templates/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/templates/login/thanhcong.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/login/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/mysite/templates/mysite/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/mysite/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0002_auto_20200404_0304.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0003_auto_20200404_0437.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0004_auto_20200405_0022.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0005_auto_20200405_0031.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0006_auto_20200405_0038.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0007_auto_20200405_0044.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0008_auto_20200405_0044.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0009_auto_20200405_0051.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0010_auto_20200405_0054.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0011_auto_20200405_0054.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0012_auto_20200405_0106.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0013_auto_20200405_0107.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0014_auto_20200405_0107.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0015_auto_20200405_0107.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/migrations/0016_auto_20200405_0116.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/templates/news/email.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/templates/news/news_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mysite/news/templates/news/print_email.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/detail_question.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/detail_question.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/question_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/question_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/templates/polls/result.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/templates/polls/result.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/polls/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/news/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/news/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/news/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/news/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mysite/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/news/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/polls/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/polls/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,11 +77,13 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/news" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mysite/login" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Laptop88_LTV\PycharmProjects\myproject\mysite\login" />
+      <recent name="C:\Users\Laptop88_LTV\PycharmProjects\myproject\mysite\news\templates\news" />
       <recent name="C:\Users\Laptop88_LTV\PycharmProjects\myproject\mysite\news" />
     </key>
   </component>
@@ -79,30 +104,38 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2" timestamp="1585507617197">
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585848100961">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1585507617197" />
+    <state x="137" y="21" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1585848100961" />
+    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2" timestamp="1586026781678">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="1366" height="728" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586026781678" />
     <state x="428" y="121" key="FileChooserDialogImpl" timestamp="1585505866497">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="428" y="121" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585505866497" />
-    <state x="151" y="0" key="SettingsEditor" timestamp="1585505889994">
+    <state x="151" y="0" key="SettingsEditor" timestamp="1585710647689">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="151" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585505889994" />
+    <state x="151" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585710647689" />
     <state x="275" y="99" key="Vcs.Push.Dialog.v2" timestamp="1585506073164">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="99" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1585506073164" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1585507403968">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1586021711405">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1585507403968" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1586021711405" />
     <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585506142132">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="494" y="282" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1585506142132" />
+    <state x="0" y="0" width="709" height="728" key="find.popup" timestamp="1585815793411">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="0" y="0" width="709" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1585815793411" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1585366570278">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

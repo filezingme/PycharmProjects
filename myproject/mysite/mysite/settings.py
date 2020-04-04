@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'polls.apps.PollsConfig',
     #'news.apps.NewsConfig',
     'news',
+    'mysite',
+    'login'
 ]
 
 MIDDLEWARE = [
@@ -102,6 +104,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+#1. python manage.py makemigrations => ok
+#2. python manage.py migrate => ValueError: The field admin.LogEntry.user was declared with a lazy reference to 'login.myuser', but app 'login' doesn't provide model 'myuser'.
+#loi boi vi trong db co san mot object User thuoc loai AUTH_USER_MODEL
+#3. giai phap la xoa cai file db.sqlite3 va run lai 2 dong lenh 1 & 2 o tren
+#4. python manage.py createsuperuser
+#ref: https://www.youtube.com/watch?v=tNonsihMEiU&list=PLZEIt444jqpB1j3RD4BrYm9JmNVYuzVNm&index=24, phut thu 8:06
+AUTH_USER_MODEL = 'login.MyUser'
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/

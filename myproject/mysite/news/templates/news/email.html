@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .tieude {
+            color:red;
+        }
+    </style>
+</head>
+<body>
+<form action="{% url 'news:pro' %}" method="post">
+    {{f}}
+    {%csrf_token%}
+    <input type="submit" value="send email">
+</form>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {% if newslist %}
+        {% for item in newslist %}
+            <p>{{ item.title }} - {{ item.id }}</p>
+        {% endfor %}
+    {% else %}
+        khong co du lieu
+    {% endif %}
+</body>
+</html>
